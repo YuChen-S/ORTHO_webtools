@@ -72,7 +72,7 @@ with st.container():
 
         The ADL (activities of daily living) was totally independent, without any catheter indwelling.
 
-        This time, {gender_abb} suffered from {side} {location} pain after {event_type} on {event_date}. {side} {location} pain and limited ROM (range of movement) were noticed, with some abrasions over extremities. No initial LOC (loss of consciousness), head contusion, massive bleeding, open wound, distal paresthesia or paralysis been noticed. Due to the above condition, {gender_abb} was brought to our ED (emergency department) on {event_date}.
+        This time, {gender_abb} suffered from {side} {location} pain after {event_type} on {event_date}. {side} {location} tenderness and limited ROM (range of movement) were noticed, with some abrasions over extremities. No initial LOC (loss of consciousness), head contusion, massive bleeding, open wound, distal paresthesia or paralysis been noticed. Due to the above condition, {gender_abb} was brought to our ED (emergency department) on {event_date}.
 
         Ar triage, the vital signs were generally stable. PE (physical examination) showed no open wound and distal neurovascular function was intact. The image study revealed {side} {diagnosis}. Orthopedics was consulted and surgical intervention was suggested. After SDM (Share Decision Making) and informing the risk and benefit of operation, the patient and family agreed. No recent anticoagulant nor antiplatelet was used.
 
