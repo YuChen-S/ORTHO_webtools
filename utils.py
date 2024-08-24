@@ -62,7 +62,12 @@ def basic_profile():
         gender_abb = 'he' if gender == 'male' else 'she'
     underlying_list = ['Nil', 'HTN', 'T2DM', 'Dyskipidemia', 'CKD', 'ESRD', 'CAD', 'Stroke', 'CVA', 'PAOD']
     underlying = st.multiselect('Underlying diseases: ', underlying_list, underlying_list[0:1])
-    underlying_text = 'no underlying disease.' if underlying == ['Nil'] else f'underlying diseases of \n\n. {'\n\n. '.join(underlying)}'
+    if underlying == ['Nil']:
+        underlying_text = 'no underlying disease.'
+    else:
+        text = '\n\n. '.join(underlying)
+        underlying_text = f'underlying diseases of \n\n. {text}'
+    # underlying_text = 'no underlying disease.' if underlying == ['Nil'] else f'underlying diseases of \n\n. {'\n\n. '.join(underlying)}'
     st.write('---')
     return id, age, gender, gender_abb, underlying_text
 
